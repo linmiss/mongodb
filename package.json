@@ -1,0 +1,20 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "linmiss",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^4.9.7"
+  },
+  "devDependencies": {
+    "mocha": "^3.3.0"
+  }
+}
