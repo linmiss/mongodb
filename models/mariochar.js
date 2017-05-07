@@ -1,6 +1,9 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+//es6 promise
+mongoose.Promise = global.Promise;
+
 //创建一个模式和模型
 
 const MarioCharSchema = new Schema({
